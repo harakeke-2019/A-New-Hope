@@ -12,14 +12,13 @@ const App = () => {
   return (
     <Router>
       <div className = 'app'>
-        <h1>React development has begun!</h1>
         <div className = 'routesContainer'>
-          <Route path = '/' component = {Home} />
+          <Route exact path = '/' component = {Home} />
           <Route path = '/BDO' component = {Nav} />
-          <Route path = '/BDO/Friend' component = {Friend} />
-          <Route path = '/BDO/Family' component = {Family} />
-          <Route path = '/BDO/Couple' component = {Couple} />
-          <Route path = '/BDO/Sent' component = {Sent} />
+          <Route exact path = '/BDO/Friend' component = {Friend} />
+          <Route exact path = '/BDO/Family' component = {Family} />
+          <Route exact path = '/BDO/Couple' component = {Couple} />
+          <Route exact path = '/Sent' component = {Sent} />
 
         </div>
       </div>
