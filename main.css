@@ -4,13 +4,18 @@
 }
 
 body {
-  background-color:  #86DBFF;
+  
 }
 
+.welcome{
+  background-color:  #86DBFF;
+  width:100vw;
+  height:100vh;
+}
 .home{
   font-family: 'Pacifico', cursive;
   text-align:center;
-  margin-top:100px;
+  top:100px;
   color:white;
   font-size:96pt;
 }
