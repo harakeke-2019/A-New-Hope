@@ -38,3 +38,5 @@ const data = {
     where: ['home', 'mates place', 'movies']
   }
 }
+
+export default data
