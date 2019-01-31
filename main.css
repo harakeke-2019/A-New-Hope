@@ -3,7 +3,33 @@
   padding: 0;
 }
 
-.home{
-  font-family: pacifico;
-  background-color: #86DBFF
+body {
+  background-color:  #86DBFF;
 }
+
+.home{
+  font-family: 'Pacifico', cursive;
+  text-align:center;
+  margin-top:100px;
+  color:white;
+  font-size:96pt;
+}
+
+.enter{
+  position: relative;
+  top: 15vh;;
+  left: 45vw;
+  width: 100px;
+  padding: 28px;
+  /* height: 94px; */
+  background-color: bisque;
+  text-align: center;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+a{  
+  text-decoration: none;
+  color: white;
+}
+
