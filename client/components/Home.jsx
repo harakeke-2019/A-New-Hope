@@ -3,9 +3,12 @@ import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is the home page</h1>
-      <Link to = '/BDO'>Link to the Nav</Link>
+    <div className = 'welcome'>
+      <div className="home">
+    Big Day Out-ify
+      </div>
+      <div className = 'enter'>
+        <Link to = '/BDO'>Get Started</Link></div>
 
     </div>
   )

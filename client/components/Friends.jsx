@@ -9,10 +9,10 @@ const Friend = () => {
         <li className = 'list'> LOCATION: The park.</li>
         <li className = 'list'>EAT AND DRINK: bangers on the barbeque in some fresh thick white bread, sorry vegans!, some fresh raro on the rocks.</li>
         <li className = 'list'>
-        .</li>
+        ACTIVITY: Touch football, bring some running shoes and sunscreen.</li>
         <br></br>
       </div>
-      <Link to = '/Sent'>Send</Link>
+      <div className = 'btn'><Link to = '/Sent'>Send</Link></div>
 
     </div>
   )

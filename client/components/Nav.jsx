@@ -8,9 +8,9 @@ const Nav = () => {
       Big Day Out-ify
       </div>
       <div className = 'menu'>
-        <button className = 'friend'><Link to = '/BDO/Friends'>Friend</Link></button>
-        <button className = 'romantic'><Link to = '/BDO/Family'>Family</Link></button>
-        <button className = 'rainy'><Link to = '/BDO/Lovers'>Couple</Link></button>
+        <div className = 'friend'><Link to = '/BDO/Friends'>Friend</Link></div>
+        <div className = 'romantic'><Link to = '/BDO/Family'>Family</Link></div>
+        <div className = 'rainy'><Link to = '/BDO/Lovers'>Couple</Link></div>
       </div>
     </div>
   )

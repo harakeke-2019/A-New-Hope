@@ -11,7 +11,7 @@ const Lovers = () => {
         <li className = 'list'>ACTIVITY: bow chicka wow wow!!!.</li>
         <br></br>
       </div>
-      <Link to = '/Sent'>Send</Link>
+      <div className = 'btn'><Link to = '/Sent'>Send</Link></div>
 
     </div>
   )

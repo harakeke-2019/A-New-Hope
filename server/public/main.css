@@ -11,8 +11,14 @@ body{
 }
 
 .content {
-  position: relative;
+  font-family: sans-serif;
+  position: absolute;
+  top: 150px;
   margin: 50px;
+}
+
+.content h1{
+  color: white;
 }
 
 /* .lists{
@@ -23,10 +29,20 @@ body{
 } */
 
 .list{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.404);
   margin: 20px;
   padding: 20px;
   width: 30vw;
+  color: black; 
+}
+
+.btn{
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  text-align: center;
+  color: black; 
 }
 
 .title {
@@ -36,6 +52,7 @@ body{
   margin-left:50px;
 }
 .menu {
+  font-family: sans-serif;
   position:relative;
   width:100%;
 }
@@ -43,6 +60,7 @@ body{
 .menu div{
 float:left;
 display:block;
+margin: 10px;
 
 }
 
@@ -104,6 +122,7 @@ display:block;
   left: 45vw;
   width: 100px;
   padding: 28px;
+  border-radius: 8px;
   /* height: 94px; */
   background-color: bisque;
   text-align: center;
