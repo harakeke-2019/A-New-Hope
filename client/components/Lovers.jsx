@@ -9,8 +9,7 @@ const place = data.lovers.where
 const Lovers = () => {
   return (
     <div className="content">
-      <div className = 'lists'>
-        <h1>Lovers</h1>
+      <div className = 'list'>
         <ul>
           {activities.map(activity => {
             return (
