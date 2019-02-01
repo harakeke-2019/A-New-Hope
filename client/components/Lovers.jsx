@@ -11,31 +11,15 @@ const Lovers = () => {
     <div className="content">
       <div className = 'list'>
         <ul>
-          {activities.map(activity => {
-            return (
-              <li key={activity}>
-                {activity}
-              </li>
-            )
-          })}
-        </ul>
-        <ul>
-          {food.map(food => {
-            return (
-              <li key={food}>
-                {food}
-              </li>
-            )
-          })}
-        </ul>
-        <ul>
-          {place.map(where => {
-            return (
-              <li key={where}>
-                {where}
-              </li>
-            )
-          })}
+          <li>
+            Today your activity is: {activities[1]}
+          </li>
+          <li>
+            You can eat: {food[1]}
+          </li>
+          <li>
+            at the best place in the world : {place[0]}
+          </li>
         </ul>
       </div>
       <Link to = '/Sent'>Send</Link>
