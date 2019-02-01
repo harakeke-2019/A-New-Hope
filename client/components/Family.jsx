@@ -2,7 +2,7 @@ import React from 'react'
 
 import data from '../../data'
 
-const activities = data.Friend.activity
+const activities = data.friend.activity
 const food = data.Friend.food
 const place = data.Friend.where
 

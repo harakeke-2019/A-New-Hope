@@ -1,5 +1,5 @@
 const data = {
-  Friend: {
+  friends: {
     activity: [
       'video games',
       'golf',
@@ -12,7 +12,7 @@ const data = {
     food: ['pizza', 'ice cream', 'burgers', 'ramen', 'bbq', 'hotpot', 'coffee'],
     where: ['museum', 'beach', 'mall', 'park']
   },
-  Romantic: {
+  lovers: {
     activity: [
       'massage',
       'double date',
@@ -25,14 +25,14 @@ const data = {
       'dance'
     ],
     food: ['fancy restaurant', 'picnic in the park', 'cook dinner together'],
-    where: []
+    where: ['your grandmas house']
   },
-  Active: {
+  active: {
     activity: ['hike', 'bike ride', 'surfing', 'running'],
     food: [],
     where: []
   },
-  Rainy: {
+  rainy: {
     activity: ['movie', 'bake a cake', 'sleep', 'video games', 'card games'],
     food: ['popcorn', 'cake', 'cookies', 'hot chocolate', 'chips'],
     where: ['home', 'mates place', 'movies']
