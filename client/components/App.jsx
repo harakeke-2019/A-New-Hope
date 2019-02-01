@@ -19,7 +19,6 @@ const App = () => {
           <Route exact path = '/BDO/Family' component = {Family} />
           <Route exact path = '/BDO/Lovers' component = {Lovers} />
           <Route exact path = '/Sent' component = {Sent} />
-
         </div>
       </div>
     </Router>
