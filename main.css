@@ -3,10 +3,70 @@
   padding: 0;
 }
 
-body {
-  
+.nav {
+  background-image:url("./09-Cathedral-Cove-Coromandel-Graeme-Murray.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
 }
 
+.title {
+  font-family: 'Pacifico', cursive;
+  color:white;
+  font-size:36pt;
+  margin-left:50px;
+}
+.menu {
+  position:relative;
+  width:100%;
+}
+
+.menu div{
+float:left;
+display:block;
+
+}
+
+.friend{
+  background: #FFDD63;
+  width:130px;
+  left:55px;
+  text-align:center;
+  font-size:20pt;
+  padding:10px;
+  position:relative;
+}
+
+.romantic{
+  background:#FF6AA8;
+  width:130px;
+  left:55px;
+  text-align:center;
+  font-size:20pt;
+  padding:10px;
+  position:relative;
+}
+
+.active{
+  background: #79FFE7;
+  width:130px;
+  left:55px;
+  text-align:center;
+  font-size:20pt;
+  padding:10px;
+  position:relative;
+}
+
+.rainy{
+  background: #86DBFF;
+  width:130px;
+  left:55px;
+  text-align:center;
+  font-size:20pt;
+  padding:10px;
+  position:relative;
+}
 .welcome{
   background-color:  #86DBFF;
   width:100vw;
