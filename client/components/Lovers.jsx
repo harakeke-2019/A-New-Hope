@@ -1,18 +1,45 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import data from '../../data'
+
+const activities = data.lovers.activity
+const food = data.lovers.food
+const place = data.lovers.where
 
 const Lovers = () => {
   return (
     <div className="content">
       <div className = 'lists'>
-        <h1>This is the Lovers page</h1>
-        <li className = 'list'>LOCATION: Today you should get it ON in the room.</li>
-        <li className = 'list'>EAT AND DRINK: A plate of fresh bluff oysters with a squirt of lemon.</li>
-        <li className = 'list'>ACTIVITY: bow chicka wow wow!!!.</li>
-        <br></br>
+        <h1>Lovers</h1>
+        <ul>
+          {activities.map(activity => {
+            return (
+              <li key={activity}>
+                {activity}
+              </li>
+            )
+          })}
+        </ul>
+        <ul>
+          {food.map(food => {
+            return (
+              <li key={food}>
+                {food}
+              </li>
+            )
+          })}
+        </ul>
+        <ul>
+          {place.map(where => {
+            return (
+              <li key={where}>
+                {where}
+              </li>
+            )
+          })}
+        </ul>
       </div>
       <Link to = '/Sent'>Send</Link>
-
     </div>
   )
 }

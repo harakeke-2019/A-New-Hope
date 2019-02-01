@@ -1,23 +1,45 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import themeData from '../../data'
+import data from '../../data'
 
-const themes = Object.keys(themeData)
+const activities = data.friends.activity
+const food = data.friends.food
+const place = data.friends.where
 
 const Family = () => {
   return (
     <div className="content">
-      <h1>This is the Family page</h1>
-      <div className = 'list'>
+      <div className = 'lists'>
+        <h1>Family</h1>
         <ul>
-          {themes.map((theme, themekey) => {
-            const list = <li key = {themekey}>{theme}</li>
-            return list
+          {activities.map(activity => {
+            return (
+              <li key={activity}>
+                {activity}
+              </li>
+            )
+          })}
+        </ul>
+        <ul>
+          {food.map(food => {
+            return (
+              <li key={food}>
+                {food}
+              </li>
+            )
+          })}
+        </ul>
+        <ul>
+          {place.map(where => {
+            return (
+              <li key={where}>
+                {where}
+              </li>
+            )
           })}
         </ul>
       </div>
       <Link to = '/Sent'>Send</Link>
-
     </div>
   )
 }
