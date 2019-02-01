@@ -7,7 +7,6 @@ const food = data.Friend.food
 const place = data.Friend.where
 
 const Family = () => {
-  console.log(activities)
   return (
     <div>
       <h1>Family</h1>
