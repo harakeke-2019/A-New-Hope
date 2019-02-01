@@ -3,12 +3,14 @@ import {Link} from 'react-router-dom'
 
 const Lovers = () => {
   return (
-    <div>
-      <h1>This is the Lovers page</h1>
-      <li className = 'list'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit deleniti incidunt nobis repudiandae quo, corrupti eligendi cupiditate ab asperiores? Quisquam maiores nobis culpa cumque explicabo, asperiores repellat sequi officia.</li>
-      <li className = 'list'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit deleniti incidunt nobis repudiandae quo, corrupti eligendi cupiditate ab asperiores? Quisquam maiores nobis culpa cumque explicabo, asperiores repellat sequi officia.</li>
-      <li className = 'list'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit deleniti incidunt nobis repudiandae quo, corrupti eligendi cupiditate ab asperiores? Quisquam maiores nobis culpa cumque explicabo, asperiores repellat sequi officia.</li>
-      <br></br>
+    <div className="content">
+      <div className = 'lists'>
+        <h1>This is the Lovers page</h1>
+        <li className = 'list'>LOCATION: Today you should get it ON in the room.</li>
+        <li className = 'list'>EAT AND DRINK: A plate of fresh bluff oysters with a squirt of lemon.</li>
+        <li className = 'list'>ACTIVITY: bow chicka wow wow!!!.</li>
+        <br></br>
+      </div>
       <Link to = '/Sent'>Send</Link>
 
     </div>

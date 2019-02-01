@@ -1,14 +1,21 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import themeData from '../../data'
+
+const themes = Object.keys(themeData)
 
 const Family = () => {
   return (
-    <div>
+    <div className="content">
       <h1>This is the Family page</h1>
-      <li className = 'list'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit deleniti incidunt nobis repudiandae quo, corrupti eligendi cupiditate ab asperiores? Quisquam maiores nobis culpa cumque explicabo, asperiores repellat sequi officia.</li>
-      <li className = 'list'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit deleniti incidunt nobis repudiandae quo, corrupti eligendi cupiditate ab asperiores? Quisquam maiores nobis culpa cumque explicabo, asperiores repellat sequi officia.</li>
-      <li className = 'list'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit deleniti incidunt nobis repudiandae quo, corrupti eligendi cupiditate ab asperiores? Quisquam maiores nobis culpa cumque explicabo, asperiores repellat sequi officia.</li>
-      <br></br>
+      <div className = 'list'>
+        <ul>
+          {themes.map((theme, themekey) => {
+            const list = <li key = {themekey}>{theme}</li>
+            return list
+          })}
+        </ul>
+      </div>
       <Link to = '/Sent'>Send</Link>
 
     </div>
